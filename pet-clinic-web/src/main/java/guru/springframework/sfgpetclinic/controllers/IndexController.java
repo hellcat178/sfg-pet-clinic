@@ -15,4 +15,10 @@ public class IndexController {
         return "index";
         //so it goes back to find a template called index(.html is not necessary)
     }
+
+    @RequestMapping("/oups")
+    public String oupsHandler() {
+
+        return "notimplemented";
+    }
 }
